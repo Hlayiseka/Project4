@@ -1,0 +1,80 @@
+<div class="container" >
+  
+  <div id="paragraph">
+      <p id="para" style="color:#a1bfc4">YOU ARE PURCHASING</p> 
+      <p style="font-size: 13px">SKULL CAP TROPHY RUSTIC CABIN DECOR</p>
+  </div>
+
+  <div id="menu">
+    <img src="../assets/image.png" alt="horns">
+  </div>
+
+  <div id="sub">
+      <div id="card">
+          <p style="letter-spacing: 7px">CARD DETAIL</p>
+      </div>
+      <p style="margin-left: 20px">CARD NAME</p>
+      <div>
+          <form action="/action_page.php">
+            <select id="cards">
+              <option value="visa" style="font-style: inherit"><strong>VISA</strong></option>
+              <option value="debit">DEBIT</option>
+              <option value="master">MASTER</option>
+              <option value="credit">CREDIT</option>
+            </select>
+          </form>
+      </div>
+      <br>
+      <p style="margin-left: 20px">CARD NO.</p>
+        <div id="visa">
+            <span style="margin-left: 20px">
+              <input type="text" maxlength="16" style="border: none">| <img src="../assets/visa (2).jpg"></span>
+        </div>
+          <br>
+      
+        <p style="margin-left: 20px">NAME ON CARD</p>
+      <div id="name">  
+        <input type="text">
+      </div>
+        
+      <br>
+      <p style="margin-left: 20px">EXPIRES DATE</p>
+      <div id="dates">
+          <input type="number" min="1" max="31" step="1" placeholder="MM" ><span style="color: #b0aaab">/</span>
+          <input type="number" min="19" max="30" step="1" style="margin-left: 6px" placeholder="YY">
+      </div>
+      <br>
+      <div id="code">
+          <p style="margin-left: 20px">CVC CODE <img src="../assets/icons8-help-16.png" style="margin-top: -65px"></p>
+          
+          <div class="circle" >
+            <span class="dot"></span>
+          </div>
+          <div class="circle2" >
+            <span class="dot"></span>
+          </div>
+          <div class="circle3" >
+            <span class="dot"></span>
+          </div>
+      </div>
+      
+  </div>
+  
+  <div id="purchase">
+    <p style="text-align: center">PURCHASE</p>
+  </div>
+
+  <div id=price>
+    <pre>
+        <p id="amount">AMOUNT        <span id="line">|</span>            SHIPPING         <span id="line">|</span>          TOTAL</p>
+        <p id="shipping">$369<sup>.99</sup>           $8<sup>.99</sup>             $378<sup>.98</sup></p>
+    </pre>
+    <!-- <p id="amount">AMOUNT <br>$369.99</p>
+    <p id="shipping">SHIPPING <br>$8.99</p>
+    <p id="total">TOTAL <br>$378.98</p> -->
+  </div>
+
+</div>
+<router-outlet></router-outlet>
+
+
